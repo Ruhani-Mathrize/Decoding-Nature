@@ -1,3 +1,9 @@
+"""
+Project:  Nature Decode / Nature Visualization
+Copyright (c) 2026 Ruhani Kashni (MathRize)
+License: MIT License (See LICENSE file for details)
+YouTube: https://www.youtube.com/@MathRize
+"""
 from manim import *
 import numpy as np
 
@@ -118,4 +124,5 @@ class SacredGeometryCinematic(Scene):
             Rotate(VGroup(center_circle, surrounding_circles_group, final_symmetry), angle=PI/5),
             run_time=7,
             rate_func=smooth
+
         )

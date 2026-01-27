@@ -1,3 +1,9 @@
+"""
+Project:  Nature Decode / Nature Visualization
+Copyright (c) 2026 Ruhani Kashni (MathRize)
+License: MIT License (See LICENSE file for details)
+YouTube: https://www.youtube.com/@MathRize
+"""
 from manim import *
 import numpy as np
 
@@ -105,4 +111,5 @@ class OddNumberSymmetry(Scene):
         self.play(
             Rotate(VGroup(graph, glow), angle=PI/4),
             run_time=3
+
         )
